@@ -1,0 +1,27 @@
+.nav-container{
+    width:100%;
+    height:92px;
+    background-color: transparent;
+    display: flex;
+    padding: 0 4.3% 0 4.3%;
+    flex-direction: row;
+    align-items: center;
+
+}
+.navlogo{
+    font-size: 30px;
+    color:#333333;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    float: left;
+
+}
+
+
+.navlogo span{
+    font-family: "Yellowtail", cursive;
+    font-weight: 800;
+    font-style: italic;
+}
