@@ -9,7 +9,7 @@
 
 }
 .navlogo{
-    font-size: 30px;
+    font-size: 20px;
     color:#333333;
     font-family: "Wix Madefor Display", sans-serif;
     font-optical-sizing: auto;
@@ -21,7 +21,8 @@
 
 
 .navlogo span{
+    font-size: 24px;
     font-family: "Yellowtail", cursive;
     font-weight: 800;
-    font-style: italic;
+    font-style: normal;
 }
