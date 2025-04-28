@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <div className="footer">
-      <div className="logoShow">Wander<span>Whiz</span></div>
+      <div className="logoShow">WANDER <span>Whiz</span></div>
       <div className="footer-section">
         <div className='first'>This is a paragraph where you can include any information you’d like. It’s an opportunity to tell a story about the company, describe a special service it offers, or highlight a particular feature that sets it apart from competitors.</div>
         <div className='second'>
