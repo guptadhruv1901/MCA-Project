@@ -1,0 +1,70 @@
+.footer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 0;
+}
+.logoShow{
+    font-size: 80px;
+    color:#333333;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    float: left;
+
+}
+.logoShow span{
+    font-family: "Yellowtail", cursive;
+    font-size: 95px;
+    font-weight: 800;
+    font-style: normal;
+}
+.footer-section{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.first{
+    width:35%;
+    padding:20px;
+    margin:20px;
+}
+.second{
+    width:25%;
+    padding:20px;
+    margin:20px;
+
+
+}
+.second h4 , .third h4 , .fourth h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.second p , .third p , .fourth p{
+    font-size: 20px;
+    padding: 12px 0 12px 0;
+}
+.third{
+    width:25%;
+    padding:20px;
+    margin:20px;
+}
+.fourth{
+    width:15%;
+    padding:20px;
+    margin:20px;
+
+}
+
+.ww{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5px;
+}
