@@ -6,22 +6,25 @@
     align-items: center;
     gap:2rem;
     margin-bottom: 0;
+    height: 91.5vh;
+    padding: 6.3% 4%;
 }
 .logoShow{
-    font-size: 80px;
+    font-size: 12rem;
     color:#333333;
     font-family: "Wix Madefor Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
-    font-style: italic;
+    font-style: normal;
     float: left;
+    text-align: center;
 
 }
 .logoShow span{
     font-family: "Yellowtail", cursive;
-    font-size: 95px;
+    font-size: 14rem;
     font-weight: 800;
-    font-style: normal;
+    font-style: normal;;
 }
 .footer-section{
     width:100%;
@@ -35,6 +38,7 @@
     width:35%;
     padding:20px;
     margin:20px;
+    
 }
 .second{
     width:25%;
