@@ -2,14 +2,14 @@
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    gap:2rem;
     margin-bottom: 0;
-    height: 91.5vh;
-    padding: 6.3% 4%;
+    padding: 3.5% 4%;
+    height: 80vh;
+    position: relative;
 }
 .logoShow{
+    position: absolute;
     font-size: 12rem;
     color:#333333;
     font-family: "Wix Madefor Display", sans-serif;
@@ -24,51 +24,69 @@
     font-family: "Yellowtail", cursive;
     font-size: 14rem;
     font-weight: 800;
-    font-style: normal;;
+    font-style: normal;
 }
 .footer-section{
+    position: absolute;
     width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    top: 42vh;
+    padding: 0 6%;
     
 
 }
 .first{
-    width:35%;
-    padding:20px;
+    width:40%;
     margin:20px;
     
 }
 .second{
-    width:25%;
-    padding:20px;
+    width:20%;
     margin:20px;
 
 
 }
 .second h4 , .third h4 , .fourth h4 {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 800;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #333333;
+    margin-bottom: 25px;
 }
  .first p , .second p , .third p , .fourth p{
-    font-size: 20px;
-    padding: 12px 0 12px 0;
+    font-size: 1rem;;
+    color: #333333;
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    width: 90%;
+    
 }
 .third{
-    width:25%;
-    padding:20px;
+    width:20%;
     margin:20px;
 }
 .fourth{
-    width:15%;
-    padding:20px;
+    width:20%;
     margin:20px;
 
 }
 
-.ww{
+.www{
+    position: absolute;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
-    font-size: 18px;
-    padding-top: 5px;
+    font-size: 14px;
+    top: 75vh;
+    color:#333333
+
 }
