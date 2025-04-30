@@ -81,3 +81,44 @@
     font-style: normal;
     font-size: 1.27rem;
 }
+
+
+.section2{
+    width:100%;
+    height:121.7vh;
+}
+.upper-part{
+    height:60.5vh;
+    background-color: #333333;
+    position: relative;
+}
+.upper-part h1{
+    font-size: 8rem;
+    color: white;
+    padding:4rem 4rem 2rem 4rem;
+
+}
+.upper-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.upper-content div{
+    width:50%;
+
+
+}
+.upper-content video{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 70.4vh;
+    height: 100.4vh;
+    z-index: 2;
+}
+.upper-content .content{
+    width:50%;
+    padding:0 5rem 0 5rem;
+    color:white;
+    font-size: 25px;
+}

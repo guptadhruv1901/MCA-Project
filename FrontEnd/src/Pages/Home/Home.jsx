@@ -22,6 +22,20 @@ const Home = () => {
           <div className="empty"></div>
         </div>
       </div>
+      <div className="section2">
+        <div className="upper-part">
+          <h1>ABOUT</h1>
+          <div className='upper-content'>
+            <div>
+            <video src={assets.calmWaves} autoPlay loop muted></video>
+            </div>              
+            <div className="content">Our platform combines AI, live weather, maps, and real-time local insights to help you craft the perfect trip. Whether you're a solo traveler, a family planner, or an adventure junkie — we’ve got your back, one itinerary at a time.</div>
+          </div>
+        </div>
+        <div className="lower-part">
+
+        </div>
+      </div>
       <Footer />
     </>
   )
