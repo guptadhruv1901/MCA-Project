@@ -33,8 +33,15 @@ const Home = () => {
           </div>
         </div>
         <div className="lower-part">
-
+          <div className="title">"PLAN SMARTER, TRAVEL BETTER"</div>
         </div>
+      </div>
+
+      <div className="section5">
+        <span><img src={assets.Weaather} alt =""/></span>
+        <h1 className='h'>Dream  Plan  Discover</h1>
+        <h1 className='center'>Where Every Trip Becomes an Experience.</h1>
+        <span><img src={assets.map} alt =""/></span>
       </div>
       <Footer />
     </>

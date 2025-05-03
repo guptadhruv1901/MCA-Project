@@ -95,7 +95,7 @@
 .upper-part h1{
     font-size: 8rem;
     color: white;
-    padding:4rem 4rem 2rem 4rem;
+    padding:2rem 4rem 2rem 8rem;
 
 }
 .upper-content{
@@ -110,10 +110,10 @@
 }
 .upper-content video{
     position: absolute;
-    top: 30%;
+    top:-10%;
     left: 8%;
     width: 70.4vh;
-    height: 100.4vh;
+    height: 120.4vh;
     z-index: 2;
 }
 .upper-content .content{
@@ -121,4 +121,33 @@
     padding:0 5rem 0 5rem;
     color:white;
     font-size: 25px;
+}
+
+.lower-part{
+     font-size: 3rem;
+     float: right;
+     padding:4rem 1rem 3rem 2rem;
+     font-family: "Yellowtail", cursive;
+     font-weight: 500;
+     font-style: italic;
+     color:#333333;
+}
+
+.section5{
+    width:100%;
+    height:12rem;
+    background-color: #333333;
+
+}
+
+.section5 h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.h{
+    float: left;
+}
+.center{
+    text-align : center;
 }
