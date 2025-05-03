@@ -1,11 +1,18 @@
 import whiteTree from './HomePage/whiteTree.jpg';
 import calmWaves from './HomePage/calmWaves.mp4';
-import map from './HomePage/map.avif';
-import Weaather from './HomePage/weaather.avif';
-
+import aiPoster from './HomePage/aiPoster.png';
+import mapView from './HomePage/mapView.webp';
+import navigation from './HomePage/navigationPng.png';
+import mapVideo from './HomePage/mapVideo.mp4';
+import weatherPoster from './HomePage/weatherPoster.jpg';
+import weather from './HomePage/weather.png';
 export const assets = {
     whiteTree,
     calmWaves,
-    map,
-    Weaather
+    aiPoster,
+    mapView,
+    navigation,
+    mapVideo,
+    weatherPoster,
+    weather
 }
