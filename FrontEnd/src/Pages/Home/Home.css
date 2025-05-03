@@ -85,7 +85,7 @@
 
 .section2{
     width:100%;
-    height:121.7vh;
+    height:100.7vh;
 }
 .upper-part{
     height:60.5vh;
@@ -110,10 +110,10 @@
 }
 .upper-content video{
     position: absolute;
-    top:-10%;
+    top:10%;
     left: 8%;
-    width: 70.4vh;
-    height: 120.4vh;
+    width: 60.4vh;
+    height: 110.4vh;
     z-index: 2;
 }
 .upper-content .content{
@@ -126,28 +126,136 @@
 .lower-part{
      font-size: 3rem;
      float: right;
-     padding:4rem 1rem 3rem 2rem;
+     padding:4rem 1rem 0rem 2rem;
      font-family: "Yellowtail", cursive;
      font-weight: 500;
      font-style: italic;
      color:#333333;
 }
 
-.section5{
+
+
+.section3{
     width:100%;
-    height:12rem;
-    background-color: #333333;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    margin:0rem 0rem 12rem 0rem;
+
+}
+.section3 .left-content , .right-content{
+    width:50%;
+}
+.left-content .heading h1{
+    font-size: 120px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: #333333;
+    padding:0rem 0rem 2rem 4rem;
+}
+
+.left-content .service-content
+{
+    color:#333333;
+    font-size: 22px;
+    padding:1rem 1rem 0.2rem 3rem;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
 
 }
 
-.section5 h1{
+.left-content .info{
+    color: #333333;
+    font-size:3rem ;
+    font-family: "Wix Madefor display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.weather-img{
+    width:700px;
+    height:800px; 
+    margin: 4rem 2rem 1rem 1rem;
+    padding: 3rem 2rem 1rem 3rem;
+}
+.right-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10rem;
+}
+
+.img-first img, .img-second img{
+    width:700px;
+    height:600px;
+}
+.right-content .firstd , .secondd{
+    color: #333333;
+    font-size:3rem ;
+    font-family: "Wix Madefor display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top:40%;
+}
+.right-content .secondd{
+    position:absolute;
+    top:95%;
+}
+
+.section4{
+    width:100%;
+    height:26rem;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.section4 h1{
     font-size: 20px;
     font-weight: 600;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
-.h{
+.section4 .we-img{
+    position: absolute;
+    top:-20%;
+    left:30%;
+    
+}
+.section4 h1{
+    font-family: "Wix Madefor display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;    
+    font-size: 3.2rem;
     float: left;
 }
-.center{
+.section4 .h{
+    padding:4rem 4rem 0rem 4rem;
+}
+.section4 .center{
+    padding:0rem 4rem 0rem 4rem;
     text-align : center;
+}
+.weimg img{
+   float: right;
+   padding-right:6rem;
+   /* padding-bottom: ; */
+}
+.weimg img{
+    width:300px;
+    height:150px;
 }

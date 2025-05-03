@@ -37,11 +37,35 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="section5">
-        <span><img src={assets.Weaather} alt =""/></span>
+      <div className="section3">
+        <div className="left-content">
+        <div className="heading">
+          <h1>SERVICES</h1>
+        </div>
+        <div className="service-content">
+        Your dream trip deserves more than just guesswork. With our AI-powered travel planner, we transform your ideas into perfectly crafted journeys. From selecting the best destinations to providing real-time weather updates and personalized activity suggestions, we make travel planning smarter, faster, and truly effortless. Explore our services below and start building unforgettable adventures today
+        </div>
+        <img className="weather-img"src={assets.weatherPoster} alt="alt" />
+        <h1 className='info'>Real-Time Weather Insights Integration</h1>
+        </div>
+        <div className="right-content">
+          <div className="img-first">
+            <img src={assets.aiPoster} alt="alt" />
+          </div>
+          <h1 className='firstd'>AI-Generated Travel Itineraries (GPT-4 Integration)</h1>
+          <div className="img-second">
+          <img src={assets.mapView} alt="alt" />
+
+          </div>
+          <h1 className='secondd'>Location-Based Insights with Google Maps</h1>
+
+        </div>
+      </div>
+      <div className="section4">
+        <div className='we-img'><img src={assets.weather} alt =""/></div>
         <h1 className='h'>Dream  Plan  Discover</h1>
         <h1 className='center'>Where Every Trip Becomes an Experience.</h1>
-        <span><img src={assets.weather} alt =""/></span>
+        <div className='weimg'><img src={assets.navigation} alt =""/></div>
       </div>
       <Footer />
     </>
