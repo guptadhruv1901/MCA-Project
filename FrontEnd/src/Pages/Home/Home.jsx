@@ -23,17 +23,19 @@ const Home = () => {
         </div>
       </div>
       <div className="section2">
-        <div className="upper-part">
+        <div className="upperPart">
           <h1>ABOUT</h1>
-          <div className='upper-content'>
-            <div>
-            <video src={assets.mapVideo} autoPlay loop muted></video>
-            </div>              
-            <div className="content">Our platform combines AI, live weather, maps, and real-time local insights to help you craft the perfect trip. Whether you're a solo traveler, a family planner, or an adventure junkie — we’ve got your back, one itinerary at a time.</div>
-          </div>
         </div>
-        <div className="lower-part">
-          <div className="title">"PLAN SMARTER, TRAVEL BETTER"</div>
+        <div className="content">
+          <p>Our platform combines AI, live weather, maps, and real-time local insights to help you craft the perfect trip. Whether you're a solo traveler, a family planner, or an adventure junkie — we’ve got your back, one itinerary at a time.</p>
+        </div>  
+      </div>
+      <div className="section31">
+        <div className="left-content">
+          <video src={assets.mapVideo} autoPlay muted loop></video>
+        </div>
+        <div className="right-content">
+          <h5>"PLAN SMARTER, TRAVEL BETTER"</h5>
         </div>
       </div>
 
